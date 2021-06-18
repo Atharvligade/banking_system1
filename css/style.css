@@ -1,1 +1,80 @@
-
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.multipleinput-form{
+	background-color: #c6d318;
+	
+}
+h2{
+	background-color: #e92581;
+}
+.main_dev{
+	padding: 16px;
+    
+    align-items: center;
+    padding-right: 25%;
+    padding-left: 25%;
+	background-image: url("img/transfer.jpg");
+}
+.intro{
+	background: #e92581;
+	background-image: url("img/bank.png");
+}
+h1{
+	color: #f80101;
+	font-weight: bold;
+	transition: 0.5s;
+}
+h3{
+	color:#c6d318;
+}
+button{
+	border:none;
+	border-radius: 8px;
+	padding: 10px;
+	background:#7B8788; 
+	color:white;
+	letter-spacing: 1.5px;
+	font-size: 15px;
+	transition: 0.5s;
+}
+button:hover,h1:hover{
+	transform: scale(1.1);
+}
+button:hover{
+	background-color:#c21111;
+}
+footer{
+	margin-top:50%;
+	color:#19be42;
+	background-color:#086677;
+	letter-spacing: 0.5px;
+}
+footer p{
+	margin: 0;
+	font-size: 15px;
+}
+@media only screen and (orientation:portrait){
+	.intro{
+		display:flex;
+		flex-direction: column-reverse;
+	}
+	h1{
+		font-size: 30px;
+	}
+	.act{
+		padding-bottom: 100px;
+	}
+}
+.container-fluid{
+	
+	background-image: url("img/bank.png"); /* The image used */
+  background-color: #700f0f; /* Used if the image is unavailable */
+  height: 1000px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
